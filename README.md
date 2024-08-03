@@ -16,25 +16,24 @@ Components are the building blocks of a React application. A component is a self
 - **Class Components:** These are ES6 classes that extend from `React.Component` and have a `render` method. They can hold and manage state.
 
 Example of a functional component:
-
 ```jsx
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
+```
 Example of a class component:
-
-
+```jsx
 class Welcome extends React.Component {
   render() {
     return <h1>Hello, {this.props.name}</h1>;
   }
 }
+```
 State
 State is an object that determines how a component renders and behaves. It is managed within the component (similar to variables declared within a function). When the state changes, the component re-renders.
 
 Example of using state in a class component:
-
-
+```jsx
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -64,12 +63,12 @@ class Clock extends React.Component {
     );
   }
 }
+```
 Props
 Props (short for properties) are read-only attributes passed from a parent component to a child component. They allow you to pass data and event handlers down the component tree.
 
 Example of using props in a functional component:
-
-
+```jsx
 function Greeting(props) {
   return <h1>Hello, {props.name}</h1>;
 }
@@ -77,7 +76,7 @@ function Greeting(props) {
 function App() {
   return <Greeting name="Alice" />;
 }
-#Conclusion
-##React is a powerful library for building dynamic user interfaces. By understanding the core concepts of components, state, and props, you can start creating complex applications with reusable and maintainable code. As you dive deeper into React, you'll discover more advanced features and patterns that will help you build robust and scalable applications.
-
+```
+Conclusion
+React is a powerful library for building dynamic user interfaces. By understanding the core concepts of components, state, and props, you can start creating complex applications with reusable and maintainable code. As you dive deeper into React, you'll discover more advanced features and patterns that will help you build robust and scalable applications.
 
