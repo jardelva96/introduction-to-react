@@ -77,6 +77,6 @@ function App() {
   return <Greeting name="Alice" />;
 }
 ```
-#Conclusion
-##React is a powerful library for building dynamic user interfaces. By understanding the core concepts of components, state, and props, you can start creating complex applications with reusable and maintainable code. As you dive deeper into React, you'll discover more advanced features and patterns that will help you build robust and scalable applications.
+# Conclusion
+## React is a powerful library for building dynamic user interfaces. By understanding the core concepts of components, state, and props, you can start creating complex applications with reusable and maintainable code. As you dive deeper into React, you'll discover more advanced features and patterns that will help you build robust and scalable applications.
 
